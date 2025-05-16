@@ -1,4 +1,4 @@
-local loader = require'./loader.lua'
+local loader = require'./init.lua'
 local example = loader.file'./example.lua'
 example:handle()
 example.onExit = function()
