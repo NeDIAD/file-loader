@@ -2,6 +2,9 @@
 
 Run and control **Lua files** as separate child processes using **Luvit**.
 
+Requires [Luvit](https://luvit.io/). Install the package using:
+```lit install NeDIAD/file-loader```
+
 ---
 
 ## 📦 Features
@@ -44,7 +47,7 @@ Run and control **Lua files** as separate child processes using **Luvit**.
 ## ✅ Example
 
 ```lua
-local loader = require './loader.lua'
+local loader = require 'file-loader'
 
 local file = loader.file('./example.lua')
 
